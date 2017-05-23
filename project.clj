@@ -8,4 +8,5 @@
   :scm {:name "git"
         :url "http://www.eclipse.org/legal/epl-v10.html"}
   :signing {:gpg-key "pku.liyang@gmail.com"}
-  :deploy-repositories [["clojars" {:creds :gpg}]])
+  :deploy-repositories [["clojars" {:creds :gpg
+                                    :sign-releases false}]])
