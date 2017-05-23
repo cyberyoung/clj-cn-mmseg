@@ -5,7 +5,7 @@
 for Chinese word segmentation.
 
 See <http://technology.chtsai.org/mmseg/> for algrithm details."
-  (require [clojure.string :as s]
+  (:require [clojure.string :as s]
            [clj-cn-mmseg.trie :as t]
            [clj-cn-mmseg.dict :as d]
            [clojure.java.io :as io]

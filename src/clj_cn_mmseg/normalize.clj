@@ -1,7 +1,7 @@
 (ns clj-cn-mmseg.normalize
   "This module do some pre-processing work to normalize the irregular use
 in Chinese language to do better segmentation and for later analysis."
-  (require [clojure.string :as s]))
+  (:require [clojure.string :as s]))
 
 (def f->h-table
   {"　" " ", "！" "!", "＂" "\"", "＃" "#", "＄" "$", "％" "%",

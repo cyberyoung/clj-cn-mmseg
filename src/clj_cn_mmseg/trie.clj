@@ -4,7 +4,7 @@
 ;;; dictionaries for later nlp task.
 
 (ns clj-cn-mmseg.trie
-  (require [clojure.string :as s]
+  (:require [clojure.string :as s]
            [clojure.set :as set]))
 
 

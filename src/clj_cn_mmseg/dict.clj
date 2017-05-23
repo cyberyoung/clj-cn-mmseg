@@ -3,7 +3,7 @@
 ;;; This file contains related functions with load the multiple dictionary
 
 (ns clj-cn-mmseg.dict
-  (require [clojure.string :as s]
+  (:require [clojure.string :as s]
            [clojure.tools.logging :as log]
            [clojure.set :as set]
            [clojure.java.io :as io]

@@ -1,5 +1,5 @@
 (ns clj-cn-mmseg.core
-  (require [clj-cn-mmseg.mmseg :as m]
+  (:require [clj-cn-mmseg.mmseg :as m]
            [clojure.java.io :as io]))
 
 (defn mmseg
